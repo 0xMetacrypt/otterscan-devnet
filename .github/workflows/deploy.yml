@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Otterscan Deployment
 
 on:
   push:
@@ -35,20 +35,7 @@ jobs:
           cd otterscan
           npm install
           npm run build
-        env:
-          VITE_CONFIG_JSON: |
-            {
-              "erigonURL": "http://localhost:8545",
-              "chainInfo": {
-                "name": "Anvil Local DevNet",
-                "faucets": [],
-                "nativeCurrency": {
-                  "name": "Test ETH",
-                  "symbol": "tETH",
-                  "decimals": 18
-                }
-              }
-            }
+          cp ../config.json ./dist
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3

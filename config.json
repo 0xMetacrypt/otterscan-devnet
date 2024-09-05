@@ -1,0 +1,12 @@
+{
+  "erigonURL": "http://localhost:8545",
+  "chainInfo": {
+    "name": "Anvil Local DevNet",
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Test ETH",
+      "symbol": "tETH",
+      "decimals": 18
+    }
+  }
+}
