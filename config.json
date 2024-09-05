@@ -8,5 +8,10 @@
       "symbol": "tETH",
       "decimals": 18
     }
+  },
+  "branding": {
+    "siteName": "Otterscan Anvil DevNet",
+    "networkTitle": "Anvil Local DevNet",
+    "hideAnnouncements": false
   }
 }
