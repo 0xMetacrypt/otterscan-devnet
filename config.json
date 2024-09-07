@@ -1,6 +1,6 @@
 {
   "erigonURL": "http://localhost:8545",
-  "assetsURLPrefix": "/",
+  "assetsURLPrefix": "https://otterscan.static.testinprod.io",
   "chainInfo": {
     "name": "Anvil Local DevNet",
     "faucets": [],
